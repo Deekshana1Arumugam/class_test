@@ -1,0 +1,142 @@
+/* Styles for the container */
+.container {
+    /* Background gradient */
+    background: linear-gradient(90deg, rgba(253, 29, 86, 1) 0%, rgba(158, 58, 180, 1) 150%, rgba(252, 176, 69, 1) 200%);
+    padding: 10px; /* Padding around the container */
+    margin: 60px; /* Outer margin */
+    margin-bottom: 500px; /* Additional bottom margin for space */
+    height: 100vh; /* Full viewport height */
+    border-radius: 100px; /* Rounded corners */
+    display: flex; /* Flex container */
+    flex-direction: column; /* Items arranged in a column */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+}
+
+/* Hidden paragraphs inside the container */
+.container #p {
+    display: none;
+}
+
+/* General body styles */
+body {
+    height: 100%; /* Full height */
+    margin: 0; /* Reset default margin */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family */
+}
+
+/* Styles for paragraphs */
+p {
+    left: 10px; /* Positioning to the left */
+}
+
+/* Styles for heading */
+h3 {
+    margin-top: 30px; /* Margin from the top */
+    margin-left: 400px; /* Margin from the left */
+    font-size: 30px; /* Font size */
+    color: aliceblue; /* Text color */
+}
+
+/* Styles for checked icons */
+.checkd i {
+    margin-top: 50px; /* Margin from the top */
+    margin-left: 50px; /* Margin from the left */
+    font-size: 40px; /* Font size */
+    color: aliceblue; /* Text color */
+}
+
+/* Hover effect for checked icons */
+.checkd i:hover {
+    color: black; /* Text color on hover */
+    cursor: pointer; /* Cursor style */
+}
+
+/* Transition effect for icons */
+i {
+    transition: transform 0.3s ease-in-out; /* Transition effect */
+}
+
+/* Hover effect for icons */
+i:hover {
+    transform: scale(1.3); /* Scale effect on hover */
+}
+
+/* Styles for paragraphs within checked elements */
+.checkd p {
+    margin-left: 80px; /* Margin from the left */
+    margin-top: 350px; /* Margin from the top */
+    font-family: 'Dancing Script', cursive; /* Font family */
+    font-size: 50px; /* Font size */
+    transition: transform 0.4s ease-in-out; /* Transition effect */
+}
+
+/* Hover effect for paragraphs within checked elements */
+.checkd p:hover {
+    cursor: pointer; /* Cursor style */
+    color: aliceblue; /* Text color on hover */
+    transform: scale(1.3); /* Scale effect on hover */
+}
+
+/* Styles for the profile image */
+#image {
+    width: 300px; /* Image width */
+    height: auto; /* Auto-adjusted height */
+    margin: 50px; /* Margin around the image */
+    border-radius: 100%; /* Rounded image */
+}
+
+/* Body background styles */
+#body {
+    background: linear-gradient(90deg, rgb(209, 126, 147) 0%, rgb(167, 83, 185) 150%, rgb(229, 153, 47) 200%); /* Background gradient */
+    margin: 0; /* Reset default margin */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family */
+}
+
+/* Styles for skill icons */
+.skill i {
+    font-size: 100px; /* Font size */
+    margin: 20px; /* Margin around the icons */
+}
+
+.con {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: flex-start; /* Align content to the top */
+    height: 100vh; /* Adjust height as needed */
+    padding: 20px; /* Add padding */
+}
+.content {
+    display: none; /* Initially hide content */
+}
+.skill {
+    display: flex;
+    flex-direction: column; /* Display icons in a column */
+    align-items: flex-end; /* Align icons to the right */
+    margin-right: 20px; /* Add margin as needed */
+}
+
+.content {
+    display: flex;
+    flex-direction: column; /* Display content in a column */
+    align-items: flex-end; /* Align content to the right */
+    margin-right: 400px; /* Add margin as needed */
+}
+
+.content p {
+    display: none; /* Hide content initially */
+    text-align: left; /* Align text to the right */
+    margin-bottom: 10px; /* Add margin as needed */
+    color: azure;
+    font-size: 30px;
+}
+.skill i:hover{
+color: beige;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 10px;
+        margin-bottom: 200px;
+        border-radius: 50px;
+    }
+}
