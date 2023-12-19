@@ -1,4 +1,4 @@
-# class_test : Initial Stage About Page of myself
+# class_test : Early Draft-About Page of myself
 
 This is to show something about myself,I didnt complete yet !!
 
@@ -14,3 +14,6 @@ For Icons:
 - cdjns [Link](https://cdnjs.com/)
   
  After clone the entire files We need to start the page from the index.html file i have used the the icons for git,linkedin and for the instagram accounts if click that icons it redirect to my accounts, and one more link i hav given to show the skill page in study.html where we can see the code for it inside that page also i have kept icons for to show which are the languages so for i know.
+
+ ##For Commenting
+I have used the AI tool to give the comments for the entire code.
